@@ -1,11 +1,12 @@
 import React from "react";
-import type { Task } from "src/api/tasks";
 import { CheckButton } from "src/components";
 import styles from "src/components/TaskItem.module.css";
 
-export interface TaskItemProps {
+import type { Task } from "src/api/tasks";
+
+export type TaskItemProps = {
   task: Task;
-}
+};
 
 export function TaskItem({ task }: TaskItemProps) {
   return (
