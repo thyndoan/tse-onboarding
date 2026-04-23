@@ -1,4 +1,3 @@
-import { Model } from "mongoose";
 import TaskModel from "src/models/task";
 
 import type { RequestHandler } from "express";
